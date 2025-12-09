@@ -1,0 +1,27 @@
+.input {
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.input:focus::placeholder {
+    opacity: 0;
+}
+
+.add_task {
+    width: 383px;
+    height: 40px;
+    margin: 0px auto;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 16px 24px rgba(255, 255, 255, 0.14);
+    border-radius: 20px;
+}
+
+.add_task:focus {
+
+}
+
+
+

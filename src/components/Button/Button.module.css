@@ -1,0 +1,28 @@
+.button {
+    border: none;
+    background: transparent;
+}
+
+.add_button {
+    width: 56px;
+    height: 56px;
+    display: block;
+    margin : 30px auto 0px;
+    border-radius: 100%;
+    background-color: #DFBD43;
+    font-size: 40px;
+    color: #ffffff;
+    transition: all ease 0.2s;
+}
+
+.add_button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    font-size: 44px;
+    transition: all ease 0.2s;
+}
+
+
+
+
+

@@ -1,0 +1,17 @@
+.input_field {
+    
+}
+
+.label {
+    width: 383px;
+    height: 40px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+.add_field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
