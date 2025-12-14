@@ -15,11 +15,19 @@
     transition: all ease 0.2s;
 }
 
-.add_button:hover {
+.add_button:not(:disabled):hover {
     cursor: pointer;
     transform: scale(1.2);
     font-size: 44px;
     transition: all ease 0.2s;
+}
+
+.add_button:active {
+    transform: translateY(3px); /*Состояние нажатой кнопки*/
+}
+
+.add_button:disabled {
+    background-color: rgb(124, 124, 124);
 }
 
 

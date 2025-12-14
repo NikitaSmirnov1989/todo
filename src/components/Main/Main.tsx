@@ -3,9 +3,16 @@ import Form from '../Form';
 import InputField from '../InputField/InputField';
 import Button from '../Button';
 import { useState } from 'react';
+import type { RootState, AppDispatch } from '../../features/store';
+import { useDispatch } from 'react-redux'
+import { add, remove } from '../../features/todos/todoSLices';
+import ListLayout from '../ListLayout/ListLayout';
 
 
 export default function Main(){
+    const dispatch: AppDispatch = useDispatch();
+
+
     function onSubmit(event: React.FormEvent<HTMLFormElement>){
         event.preventDefault();
     }
@@ -14,6 +21,7 @@ export default function Main(){
         setValue(value);
     }
     function onClick(){
+        dispatch(add(value));
         setValue("");
     }
 
@@ -36,5 +44,6 @@ export default function Main(){
                         className="add_button"
                         />
                 </Form>
+                <ListLayout text={"Здесь пусто"}/>
             </div>
 }

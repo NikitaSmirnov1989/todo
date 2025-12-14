@@ -1,0 +1,24 @@
+.todo_item {
+    border: 2px solid #D6D6D6;
+    border-radius: 20px;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: auto;
+}
+
+.todo_item_checkbox {
+
+}
+
+.todo_item_content {
+
+}
+
+.todo_item_buttons {
+    color: blue;
+}

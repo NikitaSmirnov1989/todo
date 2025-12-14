@@ -4,4 +4,5 @@ export type ButtonProps = {
     disabled: boolean; /*Активна или неактивна кнопка во время*/
     type: 'submit' | 'reset' | 'button' /*Значение кнопки*/
     className: string /*Класс*/
+    srcImg?: string; /*Для использования картинки*/
 }

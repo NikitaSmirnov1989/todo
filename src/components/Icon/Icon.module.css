@@ -1,0 +1,11 @@
+.delete_icon {
+    filter: brightness(0) saturate(100%) invert(97%) sepia(92%) saturate(1365%) hue-rotate(324deg) brightness(93%) contrast(87%);
+}
+
+.edit_icon {
+    filter: brightness(0) saturate(100%) invert(97%) sepia(92%) saturate(1365%) hue-rotate(324deg) brightness(93%) contrast(87%);
+}
+
+.delete_icon:hover {
+    filter: brightness(0) saturate(100%) invert(29%) sepia(75%) saturate(1255%) hue-rotate(29deg) brightness(88%) contrast(94%);
+}
